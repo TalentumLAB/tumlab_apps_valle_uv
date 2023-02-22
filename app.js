@@ -43,7 +43,7 @@ const addApps = [
       {
         order: 2,
         thumbnail: "./img/residuos/AGAU_CARD.png",
-        is_show: false,
+        is_show: true,
         title: "./img/residuos/AGAU_TITLE.png",
         cover: "./img/residuos/AGAU_IMAGE.png",
         description:
@@ -80,7 +80,7 @@ const addApps = [
   },
   {
     category_name: 'Inteligencia de negocios',
-    enable: false,
+    enable: true,
     children: [
       {
         order: 1,
@@ -226,7 +226,9 @@ const showAppDetails = (key) => {
   const [catKey, appKey] = key.split('-');
   const appContainer = document.getElementById("row-info");
 
-  const orderedApps = addApps[catKey].children.sort((a, b) => a.order > b.order ? 1 : a.order < b.order ? -1 : 0);
+  const filteredCategories = addApps.filter(c => c.enable);
+
+  const orderedApps = filteredCategories[catKey].children.sort((a, b) => a.order > b.order ? 1 : a.order < b.order ? -1 : 0);
   const appInfo = orderedApps[appKey];
 
   const categoryContainers = document.getElementsByClassName('cat-container');
