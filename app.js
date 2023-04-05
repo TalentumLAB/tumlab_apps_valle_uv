@@ -2,7 +2,7 @@
 const addApps = [
   {
     category_name: 'Plataformas LMS',
-    enable: false,
+    enable: true,
     children: [
       {
         order: 1,
