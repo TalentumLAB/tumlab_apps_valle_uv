@@ -2,7 +2,7 @@
 const addApps = [
   {
     category_name: 'Plataformas LMS',
-    enable: true,
+    enable: false,
     children: [
       {
         order: 1,
@@ -33,7 +33,7 @@ const addApps = [
       {
         order: 1,
         thumbnail: "./img/scratch/scratch_thumbnail.png",
-        is_show: true,
+        is_show: false,
         title: "./img/scratch/scratch_title.png",
         cover: "./img/scratch/scratch_cover.png",
         description:
@@ -111,7 +111,7 @@ const addApps = [
       {
         order: 2,
         thumbnail: "./img/mediacms/card_mediacms.png",
-        is_show: true,
+        is_show: false,
         title: "./img/mediacms/title_mediacms.svg",
         cover: "./img/mediacms/cover_mediacms.svg",
         description:
@@ -121,7 +121,7 @@ const addApps = [
       {
         order: 3,
         thumbnail: "./img/openstreetmap/open_street_maps.png",
-        is_show: true,
+        is_show: false,
         title: "./img/openstreetmap/title_openstreetmap.svg",
         cover: "./img/openstreetmap/cover_openstreetmap.svg",
         description:
