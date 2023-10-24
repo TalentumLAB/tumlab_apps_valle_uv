@@ -31,7 +31,7 @@ const addApps = [
     enable: true,
     children: [
       {
-        order: 1,
+        order: 2,
         thumbnail: "./img/residuos/AGAU_CARD.png",
         is_show: false,
         title: "./img/residuos/AGAU_TITLE.png",
@@ -41,7 +41,7 @@ const addApps = [
         url: "http://tumlab.local:8083/",
       },
       {
-        order: 2,
+        order: 1,
         thumbnail: "./img/scratch/scratch_thumbnail.png",
         is_show: true,
         title: "./img/scratch/scratch_title.png",
