@@ -106,7 +106,7 @@ const addApps = [
         cover: "./img/wiki/wiki_cover.png",
         description:
           "Wikipedia es una página web para realizar consultas online de contenido abierto, una web que almacena, recopila y transmite información de manera totalmente estructurada.",
-        url: "http://tumlab.local:8087/wikipedia_es_all_nopic_2022-10/A/Wikipedia:Offline",
+        url: "http://tumlab.local:8087/viewer#wikipedia_es_all_maxi_2023-10/A/Wikipedia:Offline",
       },
       {
         order: 2,
