@@ -33,7 +33,7 @@ const addApps = [
       {
         order: 1,
         thumbnail: "./img/residuos/AGAU_CARD.png",
-        is_show: true,
+        is_show: false,
         title: "./img/residuos/AGAU_TITLE.png",
         cover: "./img/residuos/AGAU_IMAGE.png",
         description:
@@ -43,7 +43,7 @@ const addApps = [
       {
         order: 2,
         thumbnail: "./img/scratch/scratch_thumbnail.png",
-        is_show: false,
+        is_show: true,
         title: "./img/scratch/scratch_title.png",
         cover: "./img/scratch/scratch_cover.png",
         description:
