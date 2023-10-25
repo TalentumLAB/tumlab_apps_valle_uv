@@ -33,7 +33,7 @@ const addApps = [
       {
         order: 2,
         thumbnail: "./img/residuos/AGAU_CARD.png",
-        is_show: false,
+        is_show: true,
         title: "./img/residuos/AGAU_TITLE.png",
         cover: "./img/residuos/AGAU_IMAGE.png",
         description:
