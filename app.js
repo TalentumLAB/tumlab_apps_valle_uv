@@ -27,6 +27,32 @@ const addApps = [
     ]
   },
   {
+    category_name: 'TEO',
+    enable: true,
+    children: [
+      {
+        order: 1,
+        thumbnail: "./img/tumlab/tumlab_thumbnail.png",
+        is_show: true,
+        title: "./img/tumlab/tumlab_title.png",
+        cover: "./img/tumlab/tumlab_cover.png",
+        description:
+          "TUMLAB LMS es una plataforma de aprendizaje diseñada para proporcionarle a educadores, administradores y estudiantes un sistema integrado único, robusto y seguro para crear ambientes de aprendizaje personalizados. Una interfaz simple, recursos bien documentados, junto con mejoras continuas, hacen a Moodle fácil de aprender y usar.",
+        url: "http://tumlab.local:5001",
+      },
+      {
+        order: 2,
+        thumbnail: "./img/sistema_de_informacion/sistema_de_informacion.svg",
+        is_show: true,
+        title: "./img/sistema_de_informacion/sistema_de_informacion_title.svg",
+        cover: "./img/sistema_de_informacion/sistema_de_informacion_cover.png",
+        description:
+          "El sistema de información es una de herramienta para reportes de la plataforma de contenido pedagogico que permite visualizar indicadores, desplegar gráficas y generar reportes sobre la información del estado y avance de los usuarios en las actividades elaboradas en los diferentes cursos de la plataforma.",
+        url: "http://tumlab.local:3001",
+      },
+    ]
+  },
+  {
     category_name: 'Temas lúdicos',
     enable: true,
     children: [
