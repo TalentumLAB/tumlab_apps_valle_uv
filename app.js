@@ -27,14 +27,14 @@ const addApps = [
     ]
   },
   {
-    category_name: 'TEO',
+    category_name: 'Valle is english',
     enable: true,
     children: [
       {
         order: 1,
-        thumbnail: "./img/tumlab/tumlab_thumbnail.png",
+        thumbnail: "./img/teo/logo.png",
         is_show: true,
-        title: "./img/tumlab/tumlab_title.png",
+        title: "./img/teo/valleEnglish.png",
         cover: "./img/tumlab/tumlab_cover.png",
         description:
           "TUMLAB LMS es una plataforma de aprendizaje diseñada para proporcionarle a educadores, administradores y estudiantes un sistema integrado único, robusto y seguro para crear ambientes de aprendizaje personalizados. Una interfaz simple, recursos bien documentados, junto con mejoras continuas, hacen a Moodle fácil de aprender y usar.",
@@ -42,7 +42,7 @@ const addApps = [
       },
       {
         order: 2,
-        thumbnail: "./img/sistema_de_informacion/sistema_de_informacion.svg",
+        thumbnail: "./img/teo/logo.png",
         is_show: true,
         title: "./img/sistema_de_informacion/sistema_de_informacion_title.svg",
         cover: "./img/sistema_de_informacion/sistema_de_informacion_cover.png",
@@ -69,7 +69,7 @@ const addApps = [
       {
         order: 1,
         thumbnail: "./img/scratch/scratch_thumbnail.png",
-        is_show: true,
+        is_show: false,
         title: "./img/scratch/scratch_title.png",
         cover: "./img/scratch/scratch_cover.png",
         description:
@@ -80,7 +80,7 @@ const addApps = [
   },
   {
     category_name: 'Simuladores',
-    enable: true,
+    enable: false,
     children: [
       {
         order: 1,
@@ -122,12 +122,12 @@ const addApps = [
   },
   {
     category_name: 'Contenido informativo',
-    enable: true,
+    enable: false,
     children: [
       {
         order: 1,
         thumbnail: "./img/wiki/wiki_thumbnail.png",
-        is_show: true,
+        is_show: false,
         title: "./img/wiki/wiki_title.png",
         cover: "./img/wiki/wiki_cover.png",
         description:
