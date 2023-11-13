@@ -53,6 +53,22 @@ const addApps = [
     ]
   },
   {
+    category_name: 'Sistema de información UNIVERSUM',
+    enable: true,
+    children: [
+      {
+        order: 1,
+        thumbnail: "./img/uv/Logo.svg",
+        is_show: true,
+        title: "./img/uv/Logo.svg",
+        cover: "./img/sistema_de_informacion/sistema_de_informacion_cover.png",
+        description:
+          "El sistema de información de UNIVERSUM es una de herramienta del videojuego UNIVERSUM que permite visualizar indicadores, desplegar gráficas y generar reportes del avance, tiempo de juego, cantidad de juegos, entre otra información de interes referente a este videojuego",
+        url: "http://tumlab.local:3003",
+      },
+    ]
+  },
+  {
     category_name: 'Temas lúdicos',
     enable: true,
     children: [
