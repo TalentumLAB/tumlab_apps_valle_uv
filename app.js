@@ -48,7 +48,7 @@ const addApps = [
         cover: "./img/sistema_de_informacion/sistema_de_informacion_cover.png",
         description:
           "El sistema de información es una de herramienta para reportes de la plataforma de contenido pedagogico que permite visualizar indicadores, desplegar gráficas y generar reportes sobre la información del estado y avance de los usuarios en las actividades elaboradas en los diferentes cursos de la plataforma.",
-        url: "http://tumlab.local:3001",
+        url: "http://tumlab.local:3004",
       },
     ]
   },
