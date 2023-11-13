@@ -28,7 +28,7 @@ const addApps = [
   },
   {
     category_name: 'Valle is english',
-    enable: true,
+    enable: false,
     children: [
       {
         order: 1,
