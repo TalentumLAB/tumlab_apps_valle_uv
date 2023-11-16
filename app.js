@@ -54,7 +54,7 @@ const addApps = [
   },
   {
     category_name: 'Sistema de información UNIVERSUM',
-    enable: true,
+    enable: false,
     children: [
       {
         order: 1,
